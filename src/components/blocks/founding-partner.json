@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_blocks_founding_partners",
+  "info": {
+    "displayName": "founding partner"
+  },
+  "options": {},
+  "attributes": {
+    "profilePicture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "name": {
+      "type": "string",
+      "default": "founding partner name"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "richtext"
+    },
+    "partnerSocialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-links"
+    }
+  }
+}

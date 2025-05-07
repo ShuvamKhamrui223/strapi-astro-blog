@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_contact_infos",
+  "info": {
+    "displayName": "contact info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "directionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link"
+    },
+    "text": {
+      "displayName": "text with icon",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-with-icon"
+    }
+  }
+}

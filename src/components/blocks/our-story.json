@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_blocks_our_stories",
+  "info": {
+    "displayName": "our story"
+  },
+  "options": {},
+  "attributes": {
+    "storyBannerImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "storyHeading": {
+      "type": "string",
+      "default": "story main heading"
+    },
+    "sorySubHeading": {
+      "type": "string",
+      "default": "story sub heading"
+    },
+    "storyDescription": {
+      "type": "text"
+    },
+    "missionHeading": {
+      "type": "string"
+    },
+    "missionBio": {
+      "type": "text"
+    },
+    "foundingYear": {
+      "type": "integer"
+    },
+    "donationAmount": {
+      "type": "biginteger"
+    }
+  }
+}

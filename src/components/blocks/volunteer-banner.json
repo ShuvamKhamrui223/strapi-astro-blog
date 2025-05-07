@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_volunteer_banners",
+  "info": {
+    "displayName": "volunteer banner"
+  },
+  "options": {},
+  "attributes": {
+    "bannerTitle": {
+      "type": "string",
+      "default": "this is banner title"
+    },
+    "makeDonationLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link"
+    },
+    "becomeVolunteerButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link"
+    }
+  }
+}

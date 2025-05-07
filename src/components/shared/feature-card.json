@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_feature_cards",
+  "info": {
+    "displayName": "feature card"
+  },
+  "options": {},
+  "attributes": {
+    "featureTitle": {
+      "type": "string"
+    },
+    "featureImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

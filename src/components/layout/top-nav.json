@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_top_navs",
+  "info": {
+    "displayName": "header",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logoLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.logo-link"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.link"
+    },
+    "CTAButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link"
+    }
+  }
+}

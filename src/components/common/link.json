@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_common_links",
+  "info": {
+    "displayName": "link",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "linkText": {
+      "type": "string"
+    },
+    "linkHref": {
+      "type": "string"
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "isButton": {
+      "type": "boolean",
+      "default": false
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "filled",
+        "blank",
+        "outlined"
+      ]
+    }
+  }
+}
